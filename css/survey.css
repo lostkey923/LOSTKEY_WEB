@@ -1,0 +1,46 @@
+
+*{
+	margin:0; padding:0; box-sizing: border-box; 
+	list-style-type: none;
+	font-family: 'Noto Sans KR',sans-serif;
+}
+body{
+    background-color: rgb(255, 217, 237);
+}
+form{
+    padding: 1% 3% 1% 3%;
+}
+.title-div{
+    background-color: rgb(255, 0, 136);
+    color: rgba(255, 255, 255, 1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 5%;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: calc(100% + 2px);
+    display: block;
+}
+.content{
+    margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 5% 50px 5% 50px;
+    position: relative;
+}
+.explan{
+    font-weight: 400;
+    font-size: 200%;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+.title-txt{
+    font-size: 400%;
+    margin: 20px 0 20px 0;
+}
+.red-txt{
+    color: red;
+}
