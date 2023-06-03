@@ -10,11 +10,11 @@ body{
 form{
     padding: 1% 3% 1% 3%;
 }
-.title-div{
+.title-deco-div{
     background-color: rgb(255, 0, 136);
     color: rgba(255, 255, 255, 1);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     height: 5%;
     left: -1px;
     position: absolute;
@@ -26,16 +26,13 @@ form{
     margin-top: 12px;
     background-color: #fff;
     border: 1px solid #dadce0;
-    border-radius: 8px;
-    margin-bottom: 12px;
+    border-radius: 10px;
+    margin-bottom: 50px;
     padding: 5% 50px 5% 50px;
     position: relative;
 }
 .explan{
-    font-weight: 400;
-    font-size: 200%;
-    line-height: 1.5;
-    letter-spacing: 0;
+    font-size: 180%;
 }
 .title-txt{
     font-size: 400%;
@@ -43,4 +40,25 @@ form{
 }
 .red-txt{
     color: red;
+}
+
+.font-set{
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    
+}
+.question{
+    font-size: 170%;
+}
+
+.question-explan{
+    font-size: 150%;
+}
+
+.answer{
+    font-size: 180%;
+}
+.answer span{
+    font-size: 140%;
 }
